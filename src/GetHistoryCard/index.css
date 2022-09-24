@@ -1,0 +1,88 @@
+.applogo {
+  height: 30px;
+  padding-left: 20px;
+}
+.searchlogo {
+  height: 18px;
+}
+.historypage {
+  width: 700px;
+  min-height: 600px;
+  border-style: solid;
+  border-width: 0px;
+  font-family: 'roboto';
+  margin: auto;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: flex-start;
+  height: 50px;
+  background-color: #3367d6;
+}
+.searchinputbox {
+  background-color: #2850a7;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  outline: none;
+  padding: 6px;
+  height: 30px;
+  margin-left: 50px;
+  margin-right: auto;
+}
+.searchiconbox {
+  background-color: transparent;
+  margin-right: 5px;
+}
+.input {
+  background-color: transparent;
+  border-width: 0px;
+  width: 300px;
+  outline: none;
+  color: aliceblue;
+}
+.historycard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  box-shadow: 0px 4px 4px 4px rgb(112, 115, 116);
+  list-style-type: none;
+  margin: 20px;
+  padding: 20px;
+}
+.listel {
+  display: flex;
+  flex-direction: column;
+}
+.timecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-style: solid;
+  border-color: #3367d6;
+  border-width: 0px;
+}
+.para {
+  padding-top: 0px;
+  margin: 0px;
+}
+.button {
+  testid: 'delete';
+}
+.timelogorow {
+  display: flex;
+  flex-direction: row;
+}
+.websitelogo {
+  height: 35px;
+  margin-top: 2px;
+  margin-right: 20px;
+}
+.center {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 20px;
+}
